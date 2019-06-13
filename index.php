@@ -47,6 +47,23 @@ for ($x = 1; $x <=12; $x++) {
     $a=$x*$x;
   	echo "$x * $x = $a<br>";
 }
+
+<h1>EX 7</h1>
+
+echo "<table border =\"5\">";
+ 
+  for ($row =1; $row <= 12; $row++) { 
+    echo "<tr>";
+ 
+  for ($col = 1; $col <= 12; $col++) { 
+    $a = $col * $row;
+    echo "<td style=\"padding:10px; background-color: #D8D8D8\">$a</td>";
+  }
+    
+  echo "</tr>";
+}
+
+  echo "</table>";
 ?>
 
 </body>
